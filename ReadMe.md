@@ -5,6 +5,8 @@ able to check if a variable is a specific type. This can be used to create the â
 correct type. It allows you to achieve some of the variables guarantees that are promised in java, allowing you to make sure all your variables are
 the correct type and in the correct order, simply.
 
+---
+
 ## Methods
 Here are the methods availible for use within Fuse.
 
@@ -12,8 +14,10 @@ Here are the methods availible for use within Fuse.
 This method allows for the verification of whether or not a variables data type is a number.
 #### Parameters
 * var => variable being tested
+
 #### Return
 * Boolean stating if the datatype of var is a number.
+
 #### Example
 ```javascript
 console.log(fuse.isNumber(22)); //Returns true
@@ -21,6 +25,10 @@ console.log(fuse.isInt(22)); //Returns true (alternate syntax)
 console.log(fuse.isNumber(true)); //Returns false
 console.log(fuse.isInt(false)); //Returns false
 ```
+
+
+<br>
+
 
 ### Is String
 This method allows for the verification of whether or not a variables data type is a string.
@@ -33,6 +41,10 @@ This method allows for the verification of whether or not a variables data type 
 console.log(fuse.isString("Hello World")); //Returns true
 console.log(fuse.isString(22)); //Returns false
 ```
+
+
+<br>
+
 
 ### Is Character
 This method allows for the verification of whether or not a variables data type is a character.
@@ -48,6 +60,10 @@ console.log(fuse.isCharacter("Hello World")); //Returns false
 console.log(fuse.isChar("Hello World")); //Returns false
 ```
 
+
+<br>
+
+
 ### Is Date
 This method allows for the verification of whether or not a variables data type is a date.
 #### Parameters
@@ -59,6 +75,9 @@ This method allows for the verification of whether or not a variables data type 
 console.log(fuse.isDate(new Date())); //Returns true
 console.log(fuse.isDate(2)); //Returns false
 ```
+
+<br>
+
 
 ### Is Boolean
 This method allows for the verification of whether or not a variables data type is a boolean.
@@ -72,6 +91,9 @@ console.log(fuse.isBoolean(true)); //Returns true
 console.log(fuse.isBoolean("Hello World")); //Returns false
 ```
 
+<br>
+
+
 ### Is Element
 This method allows for the verification of whether or not a variables data type is an html element.
 #### Parameters
@@ -83,6 +105,9 @@ This method allows for the verification of whether or not a variables data type 
 console.log(fuse.isElement(document.getElementsByTagName("p"))); //Returns true
 console.log(fuse.isElement(1)); //Returns false
 ```
+
+<br>
+
 
 ### Is Object
 This method allows for the verification of whether or not a variables data type is an object.
@@ -96,6 +121,9 @@ console.log(fuse.isObject({value: 1})); //Returns true
 console.log(fuse.isObject(1)); //Returns false
 ```
 
+<br>
+
+
 ### Is Array
 This method allows for the verification of whether or not a variables data type is an array.
 #### Parameters
@@ -108,6 +136,10 @@ console.log(fuse.isArray([1, 2, 3])); //Returns true
 console.log(fuse.isArray("Hello World")); //Returns false
 ```
 
+
+<br>
+
+
 ### Is Function
 This method allows for the verification of whether or not a variables data type is a function.
 #### Parameters
@@ -119,6 +151,9 @@ This method allows for the verification of whether or not a variables data type 
 console.log(fuse.isFunction(() => console.log("This is a function."))); //Returns true
 console.log(fuse.isFunction([1, 2, 3])); //Returns false
 ```
+
+
+---
 
 ### Check (single parameter)
 This will determine the data type of a given variable
@@ -134,6 +169,9 @@ This will determine the data type of a given variable
 console.log(fuse.check(1)); //returns number
 console.log(fuse.check("Hello World")); //returns string
 ```
+
+---
+
 ### Check (double parameter)
 Will determine:
   * If a given variable matches a given Datatype

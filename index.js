@@ -1,3 +1,9 @@
+/* FUSE
+ * Copyright (C) HYPE Industries Cloud Services Division - All Rights Reserved (HYPE-CSD)
+ * Dissemination of this information or reproduction of this material is strictly forbidden unless prior written permission is obtained from HYPE Industries.
+ * Written by Jack Saysana, January 2019
+ */
+
 module.exports = class fuse {
   /* ============== IS NUMBER ============= (PUBLIC)
     This will determine if a given variable is a number
