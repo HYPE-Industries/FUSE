@@ -1,5 +1,5 @@
 {
-  "name": "fusejs",
+  "name": "fuse",
   "version": "1.0.0",
   "description": "Functional Variable Sequencing",
   "main": "index.js",
