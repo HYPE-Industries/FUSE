@@ -4,7 +4,7 @@ variables should be. If the number of variables and type of variables matches th
 able to check if a variable is a specific type. This can be used to create the “overloaded” function or check to make sure all your variables are the
 correct type. It allows you to achieve some of the variables guarantees that are promised in java, allowing you to make sure all your variables are
 the correct type and in the correct order, simply.
-NPM
+
 ---
 
 ## Methods
