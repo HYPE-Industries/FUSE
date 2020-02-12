@@ -3,7 +3,6 @@
   "version": "1.0.1",
   "description": "Fuse.js is a functional variable sequencing checker. You can pass it an array of variables and an array of string telling it what each type the\r variables should be. If the number of variables and type of variables matches the method will return true, otherwise, it returns false. Fuse is also\r able to check if a variable is a specific type. This can be used to create the “overloaded” function or check to make sure all your variables are the\r correct type. It allows you to achieve some of the variables guarantees that are promised in java, allowing you to make sure all your variables are\r the correct type and in the correct order, simply.\r NPM\r ---",
   "main": "index.js",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
